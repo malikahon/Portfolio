@@ -1,0 +1,169 @@
+<!DOCTYPE HTML>
+  <html>
+    <head>
+      <title>Malika's Dream Job(s)</title>
+      <style>
+        * {
+          box-sizing: border-box;
+        }
+        body{
+          padding: 0;
+          margin: 0;
+          overflow-y: scroll;
+          font-family: Arial;
+          font-size: 18px;
+          background-image: url(images/bg1.jpg);
+          text-align: center;
+          height: 100%;
+        }
+        #nav{
+          background-color: #222;
+          z-index: 3 ;
+        }
+        #nav_wrapper{
+          width: 30%;
+          margin: 0 auto;
+          text-align: left;
+        }
+        #nav ul{
+          list-style-type: none;
+          padding: 0;
+          margin: 0;
+          position: relative;
+        }
+        #nav ul li{
+          display: inline-block;
+        }
+        #nav ul li:hover{
+          background-color: #333;
+        }
+        #nav ul li img{
+          vertical-align: middle;
+          padding-left: 5px;
+          width: 28px;
+          height: 28px;
+        }
+        #nav ul li a,visited{
+          color: #ccc;
+          display: block;
+          padding: 15px;
+          text-decoration: none;
+        }
+        #nav ul li a:hover{
+          color: #ccc;
+          text-decoration: none;
+        }
+        #nav ul li:hover ul{
+          display: block;
+        }
+        #nav ul ul{
+          display: none;
+          position: absolute;
+          background-color: #333;
+          border: 5px solid #222;
+          border-top: 0;
+          margin-left: -5px;
+          min-width: 200px;
+        }
+        #nav ul ul li{
+          display: block;
+        }
+        #nav ul ul li a,visited{
+          color: #ccc;
+        }
+        #nav ul ul li a:hover {
+          color: #099;
+        }
+        .dream_1{
+          width: 100%;
+          height: 500px;
+          color: white;
+          vertical-align: center;
+        }
+        .text{
+          padding-top: 200px;
+          font-size: 20px;
+          text-align: center;
+          background-color: rgb(0,0,0);
+          background-color: rgba(0,0,0, 0.4);
+          color: white;
+          font-weight: bold;
+          border: 3px solid #f1f1f1;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          z-index: 2;
+          width: 80%;
+          padding: 20px;
+        }
+        .bg_image{
+          height: 400px;
+          width: 100%;
+          filter: blur(8px);
+          -webkit-filter: blur(8px);
+          background-position: center;
+          background-repeat: no-repeat;
+        }
+        .dream1 {
+          background-image: url(images/image.jpg);
+        }
+        .dream2 {
+          background-image: url(images/image1.jpg);
+          margin-top: -400px;
+        }
+        .gap {
+          width: 100%;
+          height: 50px;
+        }
+      </style>
+    </head>
+    <body>
+      <div id="nav">
+        <div id="nav_wrapper">
+          <ul>
+            <li><a href="index.html">Home</a></li><li>
+            <a href="about.html">About Me</a>
+            <ul>
+              <li><a href="dream_job.html">Dream Job</a></li>
+              <li><a href="plans.html">Plans</a></li>
+              <li><a href="facts.html">50 Random Facts</a></li><li>
+            </ul></li><li>
+            <a href="hobbies.html">Hobbies</a>
+            <ul>
+              <li><a href="singing.html">Singing</a></li>
+              <li><a href="soccer.html">Soccer</a></li>
+              <li><a href="reading.html">Reading</a></li>
+              <li><a href="coding.html">Coding</a></li>
+            </ul></li><li>
+            <a href="contact.html">Contact Me</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <h1 style="font-size: 40px">Dream Jobs</h1>
+
+      <div class="bg_image dream1"></div>
+
+      <div class="dream_1">
+        <div class="text">
+          <h3 style="font-size: 50px;">Singer</h3>
+          <p>I've had this dream of being a singer for a long time. Probably first thought of it when I was 4 or 5 years old.<p>
+          <p>Generally speaking, I love doing covers of songs and random TikToks featuring them. I also write songs because it helps me relieve stress.</p>
+        </div>
+      </div>
+
+      <div class="bg_image dream2"></div>
+
+      <div class="dream_2">
+        <div class="text" style="margin-top: 500px;">
+          <h3 style = "font-size: 50px;">Soccer Player</h3>
+          <p>This is completely unrealistic, and is probably <i>never</i> going to happen.</p>
+          <p>But hey, a girl can dream, right?</p>
+        </div>
+      </div>
+
+      <div class="gap"></div>
+
+    </body>
+  </html>
